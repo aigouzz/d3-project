@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -208,18 +207,14 @@
 
     function mouseup() {
         if (m0) {
-            var m1 = mouse(d3.event),
-                    dm = Math.atan2(cross(m0, m1), dot(m0, m1)) * 180 / Math.PI;
+            var m1 = mouse(d3.event),dm = Math.atan2(cross(m0, m1), dot(m0, m1)) * 180 / Math.PI;
 
             rotate += dm;
             if (rotate > 360) rotate -= 360;
             else if (rotate < 0) rotate += 360;
             m0 = null;
-
             div.style("-webkit-transform", null);
-
-            svg
-                    .attr("transform", "translate(" + rx + "," + ry + ")rotate(" + rotate + ")")
+            svg.attr("transform", "translate(" + rx + "," + ry + ")rotate(" + rotate + ")")
                     .selectAll("g.node text")
                     .attr("dx", function(d) { return (d.x + rotate) % 360 < 180 ? 8 : -8; })
                     .attr("text-anchor", function(d) { return (d.x + rotate) % 360 < 180 ? "start" : "end"; })
