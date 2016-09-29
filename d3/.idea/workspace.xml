@@ -21,20 +21,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sunburst.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sunburst.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-65.29032">
               <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -243,11 +233,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pointpick.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pointpick.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pointpick.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25943395">
+            <state vertical-scroll-proportion="-7.096774">
               <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calendar.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/calendar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.49292454">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -258,8 +258,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -285,6 +285,9 @@
         <option value="$PROJECT_DIR$/animateddata.html" />
         <option value="$PROJECT_DIR$/labelplacement.html" />
         <option value="$PROJECT_DIR$/pointpick.html" />
+        <option value="$PROJECT_DIR$/d3/d3.v3.min.js" />
+        <option value="$PROJECT_DIR$/d3/jquery.min.js" />
+        <option value="$PROJECT_DIR$/calendar.html" />
       </list>
     </option>
   </component>
@@ -427,7 +430,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1936" height="1040" extended-state="1" />
+    <frame x="-8" y="0" width="1936" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -762,7 +765,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sunburst.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-65.29032">
           <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -981,8 +984,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pointpick.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25943395">
+        <state vertical-scroll-proportion="-7.096774">
           <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d3/d3.v3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1251422">
+          <caret line="7" column="23554" selection-start-line="7" selection-start-column="23554" selection-end-line="7" selection-end-column="23554" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d3/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1251422">
+          <caret line="7" column="28407" selection-start-line="7" selection-start-column="28407" selection-end-line="7" selection-end-column="28407" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49292454">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
