@@ -274,9 +274,7 @@ angular.module('hierarchie.directives')
                                 .each("end", function() {
                                     d3.select(this).on("mouseover", mouseover);
                                 });
-
                             showWords(currentRoot);
-
                         }
                     }
                 }
