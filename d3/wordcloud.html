@@ -41,7 +41,9 @@
         <div id="presets"></div>
         <div id="custom-area">
             <p><label for="text">Paste your text below!</label>
-            </p><p><textarea id="text">How the Word Cloud Generator Works
+            </p>
+            <p>
+            <textarea id="text">How the Word Cloud Generator Works
 
 The layout algorithm for positioning words without overlap is available on GitHub under an open source license as d3-cloud. Note that this is the only the layout algorithm and any code for converting text into words and rendering the final output requires additional development.
 
@@ -73,19 +75,21 @@ Another possibility would be to merge a word’s tree with a single large tree o
 
     </textarea>
             <button id="go" type="submit">Go!</button>
-        </p></div>
+        </p>
+        </div>
     </div>
 
     <hr>
 
     <div style="float: right; text-align: right">
         <p><label for="max">Number of words:</label> <input type="number" value="250" min="1" id="max">
-        </p><p><label for="per-line"><input type="checkbox" id="per-line"> One word per line</label>
-        <!--<p><label for="colours">Colours:</label> <a href="#" id="random-palette">get random palette</a>-->
-    </p><p><label>Download:</label>
-        <button id="download-svg">SVG</button><!-- |
-    <a id="download-png" href="#">PNG</a>-->
-    </p></div>
+        </p>
+        <p><label for="per-line"><input type="checkbox" id="per-line"> One word per line</label>
+        </p>
+        <p><label>Download:</label>
+        <button id="download-svg">SVG</button>
+        </p>
+    </div>
 
     <div style="float: left">
         <p><label>Spiral:</label>
@@ -103,7 +107,7 @@ Another possibility would be to merge a word’s tree with a single large tree o
             <label for="angle-from">from</label> <input type="number" id="angle-from" value="-60" min="-90" max="90"> °
             <label for="angle-to">to</label> <input type="number" id="angle-to" value="60" min="-90" max="90"> °
         </p>
-        
+
     </div>
 
     <hr style="clear: both">
